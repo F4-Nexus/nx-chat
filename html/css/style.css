@@ -1,0 +1,15 @@
+.chat-container {
+position: fixed; /* position fixed to stick to the viewport */
+bottom: 0; /* align to the bottom */
+left: 0; /* align to the left */
+width: 100%; /* full width */
+padding: 10px; /* some padding for nice appearance */
+background-color: rgba(255, 0, 0, 0.5); /* translucent background for visibility */
+color: #fff; /* text color */
+z-index: 1000; /* ensure it stays on top of other elements */
+box-sizing: border-box; /* to include padding in width calculations */
+}
+
+.chat-message {
+margin-bottom: 5px; /* space between messages */
+}
