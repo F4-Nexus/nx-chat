@@ -6,7 +6,7 @@ window.addEventListener('load', () => {
           if (event.key === 'Enter') {
               const message = chatInput.value.trim();
               if (message !== '') {
-                  fetch('https://qb-zombie-chat/sendMessage', {
+                  fetch('https://nx-chat/sendMessage', {
                       method: 'POST',
                       headers: {
                           'Content-Type': 'application/json; charset=UTF-8',
@@ -34,7 +34,7 @@ window.addEventListener('load', () => {
           }
       });
 
-      fetch('https://qb-zombie-chat/closeChat', {
+      fetch('https://nx-chat/closeChat', {
           method: 'POST',
           headers: {
               'Content-Type': 'application/json; charset=UTF-8',
